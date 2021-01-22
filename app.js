@@ -18,7 +18,7 @@ function harvest() {
         
     }
 }
-
+//adds DoubleXP Button 
 function moreXP() {
     counter +=2;
     totalCrops.innerHTML = counter;
