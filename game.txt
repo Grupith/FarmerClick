@@ -1,0 +1,8 @@
+
+Item Upgrades:
+
+    - Farmer: adds 2x per click, unlocked at 50
+    - Tractor: adds 5x per click, unlocked at 200
+    - Barn: adds 10x per click, unlocked at 500
+    - Farmhouse: adds 50x per click, unlocked at 1500
+    - Ranch: adds 100x per click, unlocked at 5000

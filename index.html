@@ -4,18 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>FarmerClick</title>
+<title>FarmerClick</title>
 </head>
 <body>
-    <h1><span>Farmer</span>Click</h1>
+    
     <div class="game">
-        <button id='buttonClick' class='clicker'>Harvest</button>
-        <button id='buttonDouble' class='clicker'>2x</button>
+        
+        <div class="Upgrades">
+            <h1 class='upgradeTitle'>Upgrades</h1>
+            <div class="upgradeItem">
+                <div class='flexWrapper'>
+                    <h2>Farmer</h2>
+                    <h3>50</h3> 
+                </div>
+                <p>Adds 2x per click</p>
+            </div>
+            <div class="upgradeItem">
+                <div class='flexWrapper'>
+                    <h2>Tractor</h2>
+                    <h3>200</h3>
+                </div>    
+                <p>Adds 5x per click</p>
+            </div>
+            <div class="upgradeItem">
+                <div class='flexWrapper'>
+                    <h2>Barn</h2>
+                    <h3>500</h3>
+                </div>
+                <p>Adds 10x per click</p>
+            </div>
+            <div class="upgradeItem">
+                <div class='flexWrapper'>
+                    <h2>Farmhouse</h2>
+                    <h3>1500</h3>
+                </div>    
+                <p>Adds 50x per click</p>
+            </div>
+            <div class="upgradeItem">
+                <div class='flexWrapper'>
+                    <h2>Ranch</h2>
+                    <h3>5000</h3>
+                </div>
+                <p>Adds 100x per click</p>
+            </div>
+        </div>
+        <div class="mainContent">
+            <h1>Farmer<span>Click</span></h1>
+            <button>Harvest</button>
+        </div>
     </div>
-    <div id='crops' class="crop">
-        0
-    </div>
-        <div id='alert' class="message"></div>
 <script src='app.js'></script>
 </body>
 </html>
