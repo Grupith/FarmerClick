@@ -32,9 +32,17 @@ body {
 .mainContent span {
   color: #c98f25;
 }
+
+.counter {
+  font-size: 3rem;
+  margin-top: 6rem;
+}
+
 .mainContent button {
   font-size: 2rem;
-  width: 50%;
+  font-weight: 500;
+  width: 45%;
+  margin-top: 6rem;
 }
 
 .Upgrades {
