@@ -8,39 +8,38 @@
 </head>
 <body>
     
-    <div class="game">
-        
+    <div class="game"> 
         <div class="Upgrades">
             <h1 class='upgradeTitle'>Upgrades</h1>
-            <div class="upgradeItem">
+            <div id='itemFarmer' class="upgradeItem">
                 <div class='flexWrapper'>
                     <h2>Farmer</h2>
                     <h3>50</h3> 
                 </div>
                 <p>Adds 2x per click</p>
             </div>
-            <div class="upgradeItem">
+            <div id='itemTractor' class="upgradeItem">
                 <div class='flexWrapper'>
                     <h2>Tractor</h2>
                     <h3>200</h3>
                 </div>    
                 <p>Adds 5x per click</p>
             </div>
-            <div class="upgradeItem">
+            <div id='itemBarn' class="upgradeItem">
                 <div class='flexWrapper'>
                     <h2>Barn</h2>
                     <h3>500</h3>
                 </div>
                 <p>Adds 10x per click</p>
             </div>
-            <div class="upgradeItem">
+            <div id='itemFarmhouse' class="upgradeItem">
                 <div class='flexWrapper'>
                     <h2>Farmhouse</h2>
                     <h3>1500</h3>
                 </div>    
                 <p>Adds 50x per click</p>
             </div>
-            <div class="upgradeItem">
+            <div id='itemRanch' class="upgradeItem">
                 <div class='flexWrapper'>
                     <h2>Ranch</h2>
                     <h3>5000</h3>
@@ -50,8 +49,8 @@
         </div>
         <div class="mainContent">
             <h1>Farmer<span>Click</span></h1>
-            <div class="counter">0</div>
-            <button>Harvest</button>
+            <div id='counter' class="counter">0</div>
+            <button id='harvestButton'>Harvest</button>
         </div>
     </div>
 <script src='app.js'></script>
